@@ -1,6 +1,77 @@
 html, body {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
+  font-family: 'I hate Comic Sans', sans-serif;
+}
+
+body{
+  display:grid;
+  grid-auto-flow:column;
+  height: 100vh;
+  width: 100vw;
+  overflow:hidden;
+}
+
+.page{
+  display:grid;
+  place-items:center;
+  width:100vw;
+  height:100vh;
+  position: fixed;
+  left:-100vw;
+  transition: all .5s .5s ease-in-out;
+}
+
+.show{
+  left:0;
+  transition: all .5s ease-in-out;
+}
+
+.menuitem{
+  display:grid;
+  place-items:center;
+  border: 10px solid #067084;
+  cursor: pointer;
+}
+
+.menu{
+  position: fixed;
+  height:12vh;
+  background:skyblue;
+  width: 100vw;
+  bottom:0;
+  color:black;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#title1{
+  position: absolute;
+  height: 75vh;
+  width: 90vw;
+  left:5vw;
+  bottom: 18vh;
+  background: skyblue;
+}
+
+#h1{
+  position: absolute;
+  font-size: larger;
+  left: 1vw;
+}
+
+#page1{
+  background: #2098ae;
+}
+#page2{
+  background:lightskyblue;
+}
+#page3{
+  background:lightskyblue;
+}
+#page4{
+  background:lightskyblue;
 }
 
 canvas {
