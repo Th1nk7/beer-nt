@@ -19,7 +19,7 @@ body{
   width:100vw;
   height:100vh;
   position: fixed;
-  left:-100vw;
+  left:100vw;
   transition: all .5s .5s ease-in-out;
 }
 
@@ -31,7 +31,7 @@ body{
 .menuitem{
   display:grid;
   place-items:center;
-  border: 10px solid #067084;
+  border: 7px solid #067084;
   cursor: pointer;
 }
 
@@ -46,7 +46,13 @@ body{
   grid-template-columns: repeat(4, 1fr);
 }
 
-#title1{
+.h1{
+  position: absolute;
+  font-size: larger;
+  left: 2vw;
+}
+
+.title{
   position: absolute;
   height: 75vh;
   width: 90vw;
@@ -55,10 +61,11 @@ body{
   background: skyblue;
 }
 
-#h1{
+#img1{
   position: absolute;
-  font-size: larger;
-  left: 1vw;
+  max-width: 25%;
+  top:10%;
+  right:3%;
 }
 
 #page1{
