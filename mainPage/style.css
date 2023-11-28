@@ -79,25 +79,36 @@ body{
   right:3%;
 }
 
+#gif1{
+  position: absolute;
+  left:55vw;
+  top:50vh;
+}
+
 #page1{
   background-image: url('https://media.discordapp.net/attachments/426425328982818826/1176821644573028422/image.png?ex=65704390&is=655dce90&hm=094cfc1b270960db6fdbad0a483270ab2032e64f4d38d017dfcfe41702acceb3&=&format=webp&width=872&height=491');
   background-repeat: no-repeat;
   background-size: cover;
 }
 #page2{
-  background-image: url('https://media.discordapp.net/attachments/426425328982818826/1176824586948587551/image.png?ex=6570464d&is=655dd14d&hm=962109d216ee60e04011cd3f883fa0b3dd6124280eddd54bbf6af67ef3e133e0&=&format=webp&width=488&height=491');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('https://thereader.mitpress.mit.edu/wp-content/uploads/2020/11/pacman-lead-graphic-700x420.jpg');
 }
 #page3{
-  background-image: url('https://media.discordapp.net/attachments/426425328982818826/1176825649571311646/image.png?ex=6570474b&is=655dd24b&hm=ff99227b37d41b4b2bbe197ef902d230f78c81654fa3a2f994cb8e3b6528289b&=&format=webp&width=363&height=438');
-  
+  background-image: url('https://images.photowall.com/products/45025/beer.jpg?h=699&q=85');
+  background-size:cover;
 }
 #page4{
-  background-image: url('https://media.discordapp.net/attachments/426425328982818826/1176826120205783071/image.png?ex=657047bb&is=655dd2bb&hm=fce35d22665b5237b71c5194124bac41091b98631c9aa5243fbc09d32ba2b27d&=&format=webp&width=397&height=311');
+  background-image: url('https://media.discordapp.net/attachments/426425328982818826/1179001300315275325/1240.jpg?ex=65783186&is=6565bc86&hm=505f12cbe681c2722356b4f8d602172192ddbc79afa0817fbf2976a967390da2&=&format=webp');
   background-size: auto;
 }
 
 canvas {
   display: block;
+}
+
+#cloud{
+  position: absolute;
+  transform:scale(3.5);
+  left:20vw;
+  top:25vh;
 }
