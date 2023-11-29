@@ -5,6 +5,8 @@ function setup() {
   select('#item2').mouseClicked( () => switchPage('#page2') )
   select('#item3').mouseClicked( () => switchPage('#page3') )
   select('#item4').mouseClicked( () => switchPage('#page4') )
+  select('#item5').mouseClicked( () => switchPage('#page5') )
+  select('#item6').mouseClicked( () => switchPage('#page6') )
 }
 
 function switchPage(whichPage){

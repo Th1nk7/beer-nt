@@ -43,7 +43,7 @@ body{
   bottom:0;
   color:black;
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .h1{
@@ -100,6 +100,14 @@ body{
 #page4{
   background-image: url('https://media.discordapp.net/attachments/426425328982818826/1179001300315275325/1240.jpg?ex=65783186&is=6565bc86&hm=505f12cbe681c2722356b4f8d602172192ddbc79afa0817fbf2976a967390da2&=&format=webp');
   background-size: auto;
+}
+#page5{
+  background-image: url('https://media.discordapp.net/attachments/393768440076304385/1179344984932106340/images.jpg?ex=6579719b&is=6566fc9b&hm=861ec96ed79fdb81ed620103c7a4ad03993052fe0de5fb695f383aa8fbda99c8&=&format=webp');
+  background-size:23%;
+}
+#page6{
+  background-image: url('https://gameplay.tips/wp-content/uploads/2021/10/1618500394_jump-king.jpg');
+  background-size: 100%;
 }
 
 canvas {
