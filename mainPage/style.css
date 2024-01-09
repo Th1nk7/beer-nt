@@ -51,12 +51,25 @@ body{
   font-size: larger;
   left: 2vw;
 }
+.h1part2{
+  position: absolute;
+  font-size: larger;
+  left: 4vw;
+  top: 1vw;
+}
 .p{
   position: absolute;
   font-size: x-large;
   left:7vw;
   top: 20vh;
   width:60vw;
+}
+.p2{
+  position: absolute;
+  font-size: x-large;
+  left:4vw;
+  top: 12vh;
+  width:80vw;
 }
 .title{
   position: absolute;
