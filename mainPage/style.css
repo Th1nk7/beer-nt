@@ -49,20 +49,24 @@ body{
 .h1{
   position: absolute;
   font-size: larger;
-  left: 2vw;
-}
-.h1part2{
-  position: absolute;
-  font-size: larger;
   left: 4vw;
   top: 1vw;
 }
 .p{
   position: absolute;
   font-size: x-large;
-  left:7vw;
+  left:9vw;
   top: 20vh;
-  width:60vw;
+  width:80vw;
+}
+#skiftButton{
+  position:absolute;
+  border:none;
+  font-size: 24px;
+  background-color: #067084;
+  left:84.5781vw;
+  bottom:0vh;
+  cursor:pointer;
 }
 .p2{
   position: absolute;
@@ -80,6 +84,17 @@ body{
   background: skyblue;
 }
 
+
+.beGone{
+  position: absolute;
+  left:200vw;
+}
+
+.weGoUp{
+  position:absolute;
+  top:-7vh;
+}
+
 #bg1{
   position: absolute;
   max-width: 100%;
@@ -90,6 +105,13 @@ body{
   max-width: 25%;
   top:10%;
   right:3%;
+}
+
+#ourBeer{
+  position:absolute;
+  top:0.5vh;
+  left:30vw;
+  
 }
 
 #gif1{
